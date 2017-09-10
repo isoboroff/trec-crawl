@@ -39,7 +39,7 @@ StarWars = (function() {
     this.el = $(args.el);
     
     // Audio to play the opening crawl
-    this.audio = this.el.find('audio').get(1);
+    this.audio = this.el.find('audio').get(0);
     
     // Start the animation
     this.start = this.el.find('.start');
